@@ -1,0 +1,131 @@
+
+       @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap'); 
+    /* reset the css */
+    body {
+      margin: 0px;
+      padding: 0px;
+      background: url(girlimg.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      font-family: 'Ubuntu', sans-serif;
+    }
+    .left {
+      /* border: 2px solid red; */
+      display: inline-block;
+      position: absolute;
+      top: 20px;
+      left: 34px;
+      
+    }
+    .center {
+      display: block;
+      margin: 20px auto;
+      width: 65%;
+      /* border: 2px solid red; */
+    }
+    .right {
+      /* border: 2px solid red; */
+      display: inline-block;
+      position: absolute;
+      top: 20px;
+      right: 34px;
+    }
+    .navbar
+    {
+        display: inline-block;
+    }
+
+    .navbar li
+    {
+        display: inline-block;
+        font-size: 25px;
+        text-transform: capitalize;
+    }
+
+    .navbar li a{
+color:black;
+text-decoration: none;
+padding: 10px;
+
+    }
+
+    .navbar li a:hover , .navbar li a:active{
+
+text-decoration: underline;
+color: rgb(42, 99, 148);
+    }
+
+    .left img
+    {
+     width: 34px;
+     padding-left: 45px;
+
+    }
+    .left div{
+        
+        font-family: 'Ubuntu', sans-serif;
+        text-transform: capitalize;
+    }
+
+    .btn
+    {
+     margin: 0px 9px;
+     padding: 4px 14px;
+     border: 2px solid rgb(42, 99, 148);
+     border-radius: 10px;
+     font-size: 20px;
+     cursor: pointer;
+   text-transform: capitalize;
+   font-family: 'Ubuntu', sans-serif;
+    }
+
+    .btn:hover
+    {
+      color: rgb(42, 99, 148);
+
+    }
+
+    .container
+    {
+      border: 2px solid black;
+      width: 42%;
+      margin: 30px 38px;
+      padding: 0px;
+      border-radius: 20px;
+      font-family: 'Ubuntu', sans-serif;
+      text-decoration: none;
+      
+
+    }
+
+    .form-group input
+    {
+    text-align: center;
+    display: block;
+    width: 85%;
+    padding: 6px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0px auto;
+    /* font-size: 23px;
+    text-decoration: none; */
+    text-transform: capitalize;
+    text-decoration: double;
+    }
+
+    .container h1{
+      text-align: center;
+      color: black;
+      
+
+    }
+
+    .container button
+    {
+      display: block;
+      margin: auto ;
+      padding: 2px 200px;
+    }
+
+    
+   
