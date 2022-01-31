@@ -52,7 +52,7 @@ padding: 10px;
     .navbar li a:hover , .navbar li a:active{
 
 text-decoration: underline;
-color: rgb(42, 99, 148);
+color: rgb(0, 136, 255);
     }
 
     .left img
@@ -71,7 +71,7 @@ color: rgb(42, 99, 148);
     {
      margin: 0px 9px;
      padding: 4px 14px;
-     border: 2px solid rgb(42, 99, 148);
+     border: 2px solid black;
      border-radius: 10px;
      font-size: 20px;
      cursor: pointer;
@@ -81,7 +81,8 @@ color: rgb(42, 99, 148);
 
     .btn:hover
     {
-      color: rgb(42, 99, 148);
+      color: white;
+      background-color: black;
 
     }
 
